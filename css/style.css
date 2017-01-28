@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    color: #B0BEC5;
+    display: table;
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.content {
+    text-align: center;
+    display: inline-block;
+}
+
+.message {
+    font-family: 'Poppins', monospace;
+    font-size: 24px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    color: #050708;
+}
+
+.message > p {
+    margin: 0;
+}
+
+.social-media {
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    color: #787878;
+    text-transform: uppercase;
+}
